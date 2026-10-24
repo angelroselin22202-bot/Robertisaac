@@ -7,7 +7,7 @@ import uuid
 from datetime import datetime
 
 import streamlit as st
-from supabase import create_client
+from supabase import create_client,client
 
 st.set_page_config(
     page_title="Anonymous chatbox",
